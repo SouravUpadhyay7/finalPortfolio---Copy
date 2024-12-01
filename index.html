@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourav Upadhyay Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="menu-toggle" id="mobile-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#skills">Skills</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="intro">
+            <img src="images/P_rofil_E-removebg-preview.png" alt="Sourav Upadhyay" class="intro-image">
+            <h1 class="intro-text">
+                Namaste🙏, I'm <br>
+                <span class="highlight"> "Sourav Upadhyay" </span> <br>
+                <span id="dynamic-role">Backend Engineer</span>
+            </h1>
+            
+            <a href="assets/resume/Sourav_Upadhyay_Resume.pdf" download class="resume-btn">Download Resume</a>
+
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2> 🌟 ABOUT ME :</h2>
+        <p>As an aspiring AI/ML Engineer and a 2nd-year undergraduate student set to graduate in 2027, I have honed my skills in C++, Python, Data Structures and Algorithms (DSA), NumPy, and Pandas. My academic journey has led me to explore the fascinating realms of Generative AI, Machine Learning, and Data Science. Currently, I am proud to hold the 13th rank on GeeksforGeeks within my college, a testament to my dedication and proficiency in the field.</p>
+    </section>
+
+
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+    <h2>🌟 EDUCATION :</h2>
+
+    <div class="education-box">
+    <div class="education-container">
+        <img src="images/bit.jpeg" alt="College Logo" class="college-logo">
+        <div class="education-details">
+            <h3>Bengal Institute Of Technology, Kolkata [WB]</h3>
+            <p>B.Tech in CSE With Specilization in AIML</p>
+            <p>2023 - 2027</p>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="education-box">
+    <div class="education-container">
+        <img src="images/DAV.png" alt="College Logo" class="college-logo">
+        <div class="education-details">
+            <h3>D.A.V Public School, Pakur [JH]</h3>
+            <p>Higher Secondary (10+2)</p>
+            <p>2021 - 2023</p>
+        </div>
+    </div>
+</div>
+    </section>
+
+
+    <!-- Certifications Section -->
+
+  
+    <section id="certifications" class="section">
+        <h2>🌟 CERTIFICATIONS :</h2>
+        <div class="cert-grid">  <!-- Added this wrapper with cert-grid class -->
+            <div class="cert-box" onclick="openPopup('cert1')">
+                <img src="images/datasciencewithpython.jpeg" alt="Certificate 1">
+                
+            </div>
+            
+            <div class="cert-box" onclick="openPopup('cert2')">
+                <img src="images/elementsofai.jpeg" alt="Certificate 2">
+            </div>
+            <div class="cert-box" onclick="openPopup('cert3')">
+                <img src="images/forage CWB_page-0001.jpg" alt="Certificate 3">
+            </div>
+            <div class="cert-box" onclick="openPopup('cert4')">
+                <img src="images/forage verizon.jpeg" alt="Certificate 4">
+            </div>
+            <div class="cert-box" onclick="openPopup('cert5')">
+                <img src="images/geeksforgeeks.jpeg" alt="Certificate 5">
+            </div>
+            <div class="cert-box" onclick="openPopup('cert6')">
+                <img src="images/k-python.jpeg" alt="Certificate 6">
+            </div>
+            <div class="cert-box" onclick="openPopup('cert7')">
+                <img src="images/pandas-c.jpeg" alt="Certificate 7">
+            </div>
+            <div class="cert-box" onclick="openPopup('cert8')">
+                <img src="images/numpy-C.jpeg" alt="Certificate 8">
+            </div>
+            <div class="cert-box" onclick="openPopup('cert9')">
+                <img src="images/web-udemy.jpg" alt="Certificate 9">
+            </div>
+            <div class="cert-box" onclick="openPopup('cert10')">
+                <img src="images/app-udemy.jpg" alt="Certificate 10">
+            </div>
+            <!-- Repeat for other certificates -->
+        </div>
+    
+        <!-- Popup Modals -->
+        <div id="cert1-popup" class="cert-popup">
+            <button class="close-btn" onclick="closePopup('cert1')">X</button>
+            <img src="images/datasciencewithpython.jpeg" alt="Certificate 1">
+        </div>
+        
+        <div id="cert2-popup" class="cert-popup">
+            <button class="close-btn" onclick="closePopup('cert2')">X</button>        
+            <img src="images/elementsofai.jpeg" alt="Certificate 2">
+        </div>
+        <div id="cert3-popup" class="cert-popup">
+            <button class="close-btn" onclick="closePopup('cert3')">X</button>
+            <img src="images/forage CWB_page-0001.jpg" alt="Certificate 3">
+        </div>
+        <div id="cert4-popup" class="cert-popup">
+            <button class="close-btn" onclick="closePopup('cert4')">X</button>
+            <img src="images/forage verizon.jpeg" alt="Certificate 4">
+        </div>
+        <div id="cert5-popup" class="cert-popup">
+            <button class="close-btn" onclick="closePopup('cert5')">X</button>
+            <img src="images/geeksforgeeks.jpeg "alt="Certificate 5">
+        </div>
+        <div id="cert6-popup" class="cert-popup">
+            <button class="close-btn" onclick="closePopup('cert6')">X</button>
+            <img src="images/k-python.jpeg" alt="Certificate 6">
+        </div>
+        <div id="cert7-popup" class="cert-popup">
+            <button class="close-btn" onclick="closePopup('cert7')">X</button>
+            <img src="images/pandas-c.jpeg" alt="Certificate 7">
+        </div>
+        <div id="cert8-popup" class="cert-popup">
+            <button class="close-btn" onclick="closePopup('cert8')">X</button>
+            <img src="images/numpy-C.jpeg" alt="Certificate 8">
+        </div>
+        <div id="cert9-popup" class="cert-popup">
+            <button class="close-btn" onclick="closePopup('cert9')">X</button>
+            <img src="images/web-udemy.jpg" alt="Certificate 9">
+        </div>
+        <div id="cert10-popup" class="cert-popup">
+            <button class="close-btn" onclick="closePopup('cert10')">X</button>
+            <img src="images/app-udemy.jpg" alt="Certificate 10">
+        </div>
+    </section>
+
+
+     <!-- Achievements Section -->
+     <section id="achievements" class="section">
+        <h2>🌟 ACHIEVEMENTS :</h2>
+        <div class="achievement-grid">
+            <div class="achievement-box">
+                <img src="images/gsssoc.jpeg" alt="Achievement 1">
+                <p>GirlScript Summer of Code EXTENDED <br>
+                    Open Source Contributor</p>
+            </div>
+            <div class="achievement-box">
+                <img src="images/cn.jpeg" alt="Achievement 2">
+                <p>Coding Ninja Slayground 2.0 <br>
+                21 Day Coding Challenge</p>
+            </div>
+            <div class="achievement-box">
+                <img src="images/achievement3.jpg" alt="Achievement 3">
+                <p>Achievement Description 3</p>
+            </div>
+            <!-- Add more achievement boxes as needed -->
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>🌟 SKILLS :</h2>
+        <h3>Technologies / Frameworks am skilled in -</h3>
+        <div class="skill-container">
+            <div class="skill-box">
+                <img src="images/python-svgrepo-com.svg" alt="Python">
+                <p>Python</p>
+            </div>
+            <div class="skill-box">
+                <img src="images/c-plus-plus-svgrepo-com.svg" alt="JavaScript">
+                <p>C++</p>
+            </div>
+            <div class="skill-box">
+                <img src="images/css-3.svg" alt="AI">
+                <p>CSS</p>
+            </div>
+            <div class="skill-box">
+                <img src="images/html-1.svg" alt="Backend">
+                <p>HTML</p>
+            </div>
+            <div class="skill-box">
+                <img src="images/logo-javascript.svg" alt="Backend">
+                <p>JAVASCRIPT</p>
+            </div>
+            <div class="skill-box">
+                <img src="images/matplotlib-1.svg" alt="Backend">
+                <p>MATPLOTLIB</p>
+            </div>
+            <div class="skill-box">
+                <img src="images/nodejs-3.svg" alt="Backend">
+                <p>NODE JS</p>
+            </div>
+            <div class="skill-box">
+                <img src="images/npm-svgrepo-com.svg" alt="Backend">
+                <p>NPM</p>
+            </div>
+            <div class="skill-box">
+                <img src="images/numpy-1.svg" alt="Backend">
+                <p>NUMPY</p>
+            </div>
+            <div class="skill-box">
+                <img src="images/pandas.svg" alt="Backend">
+                <p>PANDAS</p>
+            </div>
+            <div class="skill-box">
+                <img src="images/tensorflow-2.svg" alt="Backend">
+                <p>TENSORFLOW</p>
+            </div>
+            <div class="skill-box">
+                <img src="images/mongodb-icon-2.svg" alt="Backend">
+                <p>MONGO DB</p>
+            </div>
+            <div class="skill-box">
+                <img src="images/nextjs-13.svg" alt="Backend">
+                <p>NEXT JS</p>
+            </div>
+            <div class="skill-box">
+                <img src="images/express-109.svg" alt="Backend">
+                <p>EXPRESS</p>
+            </div>
+            <div class="skill-box">
+                <img src="images/power-bi.svg" alt="Backend">
+                <p>POWER BI</p>
+            </div>
+            <div class="skill-box">
+                <img src="images/tableau-software.svg" alt="Backend">
+                <p>TABLEAU</p>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+    <!-- Projects Section -->
+<section id="projects" class="section">
+    <h2> 🌟 PROJECTS :</h2>
+    <div class="project-container">
+        <div class="project-box">
+            <h3>PyDataForge</h3>
+            <p>Welcome to PyDataForge, a comprehensive data visualization project that brings together the power of Python with the brilliance of NumPy, Pandas, and Matplotlib.</p>
+            <div class="button-container">
+                <a href="https://github.com/SouravUpadhyay7/PyDataForge" class="btn github-btn" target="_blank">GitHub</a>
+                <a href="https://souravupadhyay7.github.io/PyDataForge/" class="btn demo-btn" target="_blank">Demo</a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <h3>Amazon Top 50 Books</h3>
+            <p>A simple project that uses Pandas to collect and display the top 50 bestselling books from Amazon. The data includes book titles, authors, and other relevant details.</p>
+            <div class="button-container">
+                <a href="https://github.com/SouravUpadhyay7/Amazon-Top-50-Books" class="btn github-btn" target="_blank">GitHub</a>
+                <a href="" class="btn demo-btn" target="_blank">Demo</a>
+            </div>
+        </div>
+
+        <!-- Add more project boxes as needed -->
+    </div>
+</section>
+
+<!-- Music Section -->
+
+<section id="music" class="section">
+    <h2> ANONYMOUS 👀</h2>
+    <p>I love to hear music. Wanna listen to my favorite one?<br>
+        Now surf my portfolio while listening to music 😁
+
+    </p>
+    <div class="music-player">
+      <div class="play-button" id="playButton" onclick="toggleMusic()">
+        <span class="play-icon" id="playIcon">▶</span>
+      </div>
+      <canvas id="spectrum"></canvas>
+    </div>
+    <audio id="audio" src="images/WhatsApp Audio 2024-11-29 at 14.44.11_c5172113.mp3"></audio>
+  </section>
+  
+  
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>CONTACT ME :</h2>
+        <p>Email: souravupadhyaybit@gmail.com</p>
+        <p>Kolkata , West Bengal</p>
+        <a href="https://www.linkedin.com/in/sourav-upadhyay-00a975276/"><img src="images/linkedin-icon-3.svg" alt="LinkedIn Logo"></a>
+        <a href="https://x.com/God_Arc3us"><img src="images/x-2.svg" alt="Twitter Logo"></a>
+        <a href="https://instagram.com/sourav-upadhyay"><img src="images/instagram-2016-5.svg" alt="Instagram Logo"></a>
+        <a href="https://www.geeksforgeeks.org/user/souravbit/"><img src="images/geeksfg.jpg" alt="geeksforgeeks Logo"></a>
+        <a href="https://codeforces.com/profile/God_Arceus"><img src="images/cf.jpg" alt="codeforce Logo"></a>
+        <p>© 2024 Sourav Upadhyay. All rights reserved.</p> <p>Made with ❤️ by Sourav Upadhyay</p>
+    </section>
+
+
+
+
+    
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
