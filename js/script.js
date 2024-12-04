@@ -136,3 +136,41 @@ function triggerConfetti() {
 
 
     
+  function toggleMusic() {
+    const audio = document.getElementById('audio');
+    const playIcon = document.getElementById('playIcon');
+    const popupMessage = document.createElement('div');
+    
+    // Style the popup message
+    popupMessage.style.position = 'fixed';
+    popupMessage.style.bottom = '20px';
+    popupMessage.style.right = '20px';
+    popupMessage.style.backgroundColor = '#000';
+    popupMessage.style.color = '#fff';
+    popupMessage.style.padding = '10px 20px';
+    popupMessage.style.borderRadius = '5px';
+    popupMessage.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
+    popupMessage.style.fontSize = '16px';
+    popupMessage.style.zIndex = '1000';
+    popupMessage.style.transition = 'opacity 0.5s ease';
+
+    // Toggle audio play/pause
+    if (audio.paused) {
+        audio.play();
+        playIcon.textContent = '⏸'; // Change icon to pause
+        popupMessage.textContent = 'Now listen to music while surfing!';
+    } else {
+        audio.pause();
+        playIcon.textContent = '▶'; // Change icon to play
+        popupMessage.textContent = 'Music paused!';
+    }
+
+    // Append popup message to the body
+    document.body.appendChild(popupMessage);
+
+    // Remove popup after 3 seconds
+    setTimeout(() => {
+        popupMessage.style.opacity = '0'; // Fade out
+        setTimeout(() => popupMessage.remove(), 500); // Remove after fade-out
+    }, 3000);
+}

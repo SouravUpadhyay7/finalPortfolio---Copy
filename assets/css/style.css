@@ -334,7 +334,7 @@ h2{
     width: 40px; 
     height: 40px;
     border-radius: 20%; 
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 3px 6px rgba(94, 230, 230, 0.942); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
