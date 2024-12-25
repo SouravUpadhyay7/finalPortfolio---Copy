@@ -7,7 +7,7 @@ body {
     font-weight: 500;
     font-style: normal;
     color: #ffffff; 
-    background: linear-gradient(135deg, #434343 0%, #000000 100%); 
+    background: #111111;
     background-attachment: fixed;
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -314,7 +314,7 @@ h2{
 /* Hover Effect for Skill Box */
 .skill-box:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(21, 243, 161, 0.911);
 }
 
 /* Skill Grid Style */
