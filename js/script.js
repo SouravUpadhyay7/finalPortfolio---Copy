@@ -7,7 +7,11 @@ menuToggle.addEventListener('click', () => {
 
 
 
-const roles = ["AI/ML Enthusiast", "Data Science Enthusiast"] ;
+const roles = [
+  "🐍 Python Developer",
+  "🤖 AI/ML Enthusiast",
+  "📊 Data Science Enthusiast"
+];
 const roleElement = document.getElementById('dynamic-role');
 let roleIndex = 0;
 
