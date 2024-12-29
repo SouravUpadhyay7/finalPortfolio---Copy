@@ -127,26 +127,42 @@ h2{
     }
 }
 
-/* Sections */
+/* Home Sections */
 .section {
+    
     padding: 4rem 2rem;
+        opacity: 0;
+        transform: translateX(100%); /* or translateX(-100%) for right to left slide */
+        transition: transform 0.8s ease, opacity 0.8s ease;
+    
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .intro {
     text-align: center;
     padding: 4rem 2rem;
-}
+    position: relative; }
 
 .intro-image {
     border-radius: 40%;
     width: 170px;
     animation: pop-in 1s ease-in-out;
+    float: right; 
+    margin-left: 20px; 
+    margin-top: 20px;  
+    margin-bottom: 20px; 
 }
+
 
 
 .intro-text {
     margin-top: 1rem;
     font-size: 1.5rem;
+    overflow: hidden;
 }
 
 .highlight {

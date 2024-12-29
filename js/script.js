@@ -138,3 +138,28 @@ function triggerConfetti() {
   
 
 
+
+
+
+  // Detect when a section is in the viewport
+function handleScroll() {
+  const sections = document.querySelectorAll('.section');
+
+  sections.forEach(section => {
+      const sectionTop = section.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+
+      // Check if the section is in the viewport
+      if (sectionTop < windowHeight - 100) {
+          section.classList.add('visible');
+      } else {
+          section.classList.remove('visible');
+      }
+  });
+}
+
+// Trigger scroll event listener
+window.addEventListener('scroll', handleScroll);
+
+// Call once on page load to check if any section is already in view
+handleScroll();
