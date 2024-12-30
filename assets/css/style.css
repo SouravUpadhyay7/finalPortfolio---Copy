@@ -27,7 +27,7 @@ body::before {
     background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><rect x="0" y="0" width="40" height="40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></svg>');
     background-size: 40px 40px; 
     background-repeat: repeat; 
-    opacity: 0.5;
+    opacity: 1;
     z-index: -1; 
     pointer-events: none; 
 }
