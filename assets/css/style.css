@@ -141,6 +141,7 @@ h2{
     border-radius: 40%;
     width: 170px;
     animation: pop-in 1s ease-in-out;
+    box-shadow: 0 4px 8px rgba(16, 228, 165, 0.926);
 }
 
 
