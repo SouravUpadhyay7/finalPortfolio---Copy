@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <a href="../index.html" class="home-btn"><i class="fas fa-home"></i> Home</a>
+            </div>
+            <div class="category-filter">
+                <select id="project-category">
+                    <option value="all">All Projects</option>
+                    <option value="django">Django Projects</option>
+                    <option value="ml">ML Projects</option>
+                    <option value="ds">DS Projects</option>
+                    <option value="web">WEB Projects</option>
+                    
+                    
+                </select>
+            </div>
+        </nav>
+        
+        <div class="grid-background">
+            <div class="grid"></div>
+        </div>
+        
+        <div class="heading">
+            <h1>My Projects</h1>
+            <p>Explore my recent work and creations</p>
+        </div>
+        
+        <div class="projects-container">
+           
+            <div class="project-card" data-category="ds">
+                <img src="/images/blackfriday imaaggee.jpg" alt="Black Friday Sales" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title"> Black Friday Sales Data Analysis </h3>
+                    <p class="project-description">This project dives into customer purchasing behavior and sales trends during Black Friday. By analyzing patterns and demographics, we gain insights into consumer preferences and purchasing power.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/SouravUpadhyay7/Black_Friday_Sales_Data_Analysis" target="_blank" class="project-link github-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="ds">
+                <img src="/images/Heart-Disease-Prediction.jpg" alt="Heart disease Prediction" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Heart Disease EDA</h3>
+                    <p class="project-description"> This project provides an exploratory data analysis (EDA) of a heart disease dataset. It aims to uncover insights and relationships between key features to better understand the factors contributing to heart disease.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/weather-app" target="_blank" class="project-link github-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="ds">
+                <img src="/images/atop.png" alt="Amazon EDA" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Amazon Top 50 Books</h3>
+                    <p class="project-description">A simple project that uses Pandas to collect and display the top 50 bestselling books from Amazon. The data includes book titles, authors, and other relevant details.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/SouravUpadhyay7/Amazon-Top-50-Books" target="_blank" class="project-link github-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="web">
+                <img src="/images/Screenshot (804).png" alt="Portfolio Website" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Portfolio Website</h3>
+                    <p class="project-description">My personal portfolio showcasing projects and skills with a modern UI design and smooth animations.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/SouravUpadhyay7/finalPortfolio---Copy" target="_blank" class="project-link github-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://final-portfolio-copy.vercel.app/" target="_blank" class="project-link demo-link">
+                            <i class="fas fa-external-link-alt"></i> Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="web">
+                <img src="/images/Screenshot (805).png" alt="PyDataForge" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">PyDataForge</h3>
+                    <p class="project-description">PyDataForge, a comprehensive data visualization project that brings together the power of Python with the brilliance of NumPy, Pandas, and Matplotlib. Dive into the world of data manipulation and visualization with a series of unique and engaging examples designed to elevate your data science skills.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/SouravUpadhyay7/PyDataForge" target="_blank" class="project-link github-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://souravupadhyay7.github.io/PyDataForge/" target="_blank" class="project-link demo-link">
+                            <i class="fas fa-external-link-alt"></i> Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="django">
+                <img src="/images/Screenshot (806).png" alt="Book Management System" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Book Management System</h3>
+                    <p class="project-description">Book Management System, a sleek and modern web application built with Django and PostgreSQL for managing a collection of books. Users can add, edit, view, and delete books</p>
+                    <div class="project-links">
+                        <a href="https://github.com/SouravUpadhyay7/CRUD-Django" target="_blank" class="project-link github-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="project.js"></script>
+</body>
+</html>
