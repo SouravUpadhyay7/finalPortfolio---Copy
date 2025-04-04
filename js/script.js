@@ -8,9 +8,9 @@ menuToggle.addEventListener('click', () => {
 
 
 const roles = [
-  "🐍 Python Developer",
-  "🤖 AI/ML Enthusiast",
-  "📊 Data Science Enthusiast"
+  "Python Developer",
+  "AI/ML Enthusiast",
+  "Data Science Enthusiast"
 ];
 const roleElement = document.getElementById('dynamic-role');
 let roleIndex = 0;
@@ -25,7 +25,7 @@ function changeRole() {
 }
 
 // Change role every 1 second
-setInterval(changeRole, 2000);
+setInterval(changeRole, 3000);
 
 
 function openPopup(certId) {
