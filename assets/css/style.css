@@ -10,6 +10,13 @@
     --grid-color: rgba(16, 228, 165, 0.1);
 }
 
+.highlight {
+    font-family: "Yatra One", system-ui;
+    font-weight: 500;
+    
+    font-style:normal
+  }
+  
 body {
     margin: 0;
     padding: 0;
